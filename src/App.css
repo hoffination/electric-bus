@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.App-Header {
+  display: flex;
+  background-color: #80DEEA;
+
+  flex-direction: row;
+  /*align-items: baseline;*/
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 10px 0px 10px;
+}
+
+.App-Header .fa-bus {
+  margin-top: 10px;
+  display: flex;
+}
+
+.App-Header h2 {
+  margin-top: 32px;
+}
+
+.State-Detail {
+  margin-top: 25px;
+}
